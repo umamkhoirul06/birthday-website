@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  
+  <!-- Google Fonts: Pacifico (judul), Lobster (ucapan) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&display=swap" 
+    rel="stylesheet"
+  >
+
+  <!-- Link ke CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Pustaka confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <!-- Judul atas -->
+  <h1>Happy Birthday</h1>
+
+  <!-- Kue Pink (jatuh dari atas) -->
+  <div class="cake">
+    <div class="cake-top"></div>
+    <div class="cake-cream"></div>
+    <div class="cake-bottom"></div>
+    <div class="candle">
+      <div class="flame"></div>
+    </div>
+  </div>
+
+  <!-- Pesan Ucapan -->
+  <div class="message">
+    <div class="middle-text">Happy Birthday Ngii Acu!</div>
+    <div class="from-text">From: Samone 💖</div>
+  </div>
+
+  <!-- Tombol Confetti -->
+  <button class="confetti-btn" onclick="throwConfetti()">🎉 Ulang Confetti</button>
+
+  <!-- Link ke file JS eksternal -->
+  <script src="script.js"></script>
+</body>
+</html>
